@@ -1,0 +1,29 @@
+{
+  "name": "webpack-ng2",
+  "version": "1.0.0",
+  "description": "Angular2 webpack experiments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unkindest/webpack-ng2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unkindest/webpack-ng2/issues"
+  },
+  "homepage": "https://github.com/unkindest/webpack-ng2#readme",
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.0.4",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "jquery": "^2.2.3"
+  }
+}
