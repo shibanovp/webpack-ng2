@@ -1,6 +1,7 @@
 var webpack = require('webpack');  
+var path = require('path');
 module.exports = {  
-  entry: './app.ts',
+  entry: './app/main.ts',
   output: {
     filename: 'bundle.js'
   },
@@ -15,7 +16,11 @@ module.exports = {
   ],
   module: {
     loaders: [
-      { test: /\.ts$/, loader: 'ts' }
+      { 
+          test: /\.ts$/,
+          loader: 'ts',
+        //   include: path.resolve(__dirname, 'app')
+     }
     ]
   }
 }
